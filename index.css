@@ -1,0 +1,447 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:  hsl(356, 100%, 66%);
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: hsl(356, 100%, 66%);
+    align-items: center;
+    display: flex;
+}
+label.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+.lab{
+    display: flex;
+    
+}
+.lab ul button{
+    background-color: white;
+    border-radius: 30px;
+    width: 70px;
+    color: hsl(356, 100%, 66%);
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    height: 30px;
+    align-items: center;
+    cursor: pointer;
+    transition: 5ms;
+}
+.lab ul{
+    align-items: center;
+    color: white;
+}
+nav ul{
+   display: flex;
+    margin-right: 20px;
+}
+
+.lab ul li{
+ list-style: none; 
+ text-decoration: none;
+}
+.lab li{
+    
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    margin-left: 450px;
+}
+
+.lab ul li a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 5px 0px;
+    border-radius: 3px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a.active,a:hover{
+    transition: .5s;
+}
+
+nav #icon{
+    color: white;
+   font-size: 30px;
+   line-height: 10px;
+   float: right;
+   margin-right: 40px;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
+}
+
+.blog-1{
+ 
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(356, 100%, 66%);
+    border-radius: 0px 0px 0px 120px;
+  
+}
+.blog-2{
+    text-align: center;
+}
+.blog-2 h1{
+    font-size: 50px;
+}
+.blog-2 h3{
+    font-size: 16px;
+    color: hsl(240, 2%, 79%);
+}
+.blog-3 .butt-1{
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    color: hsl(356, 100%, 66%);
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.blog-3 .butt-1:hover{
+    background: hsl(356, 100%, 66%);
+}
+.blog-3 .butt-2{
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid white;
+    background-color: hsl(356, 100%, 66%);
+    color: white;
+    cursor: pointer;
+}
+.blog-3 .butt-1:hover{
+    background: #fff;
+}
+.blog-4{
+    display: grid;
+}
+#future{
+    text-align: center;
+}
+.blog-4 h2{
+   color:  hsl(207, 13%, 34%);
+}
+.qwerty{
+    display: flex;
+}
+.blog-5{
+    margin-left: 200px;
+}
+.blog-5 h3{
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 60px;
+    line-height: 2;
+}
+.blog-6 img{
+    width: 500px;
+    margin-left: 60px;
+   
+}
+.blog-7{
+    background-color: hsl(207, 13%, 34%);
+    display: flex;
+    align-items: center;
+    border-radius: 0px 100px 0px 100px;
+}
+.blog-7 img{
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+.blog-8 h1{
+    color: white;
+    font-size: 25px;
+}
+.blog-8 h3{
+    color: hsl(240, 2%, 79%);
+    font-size: 16px;
+}
+.blog-9{
+    display: flex;
+    margin-top: 100px;
+}
+.blog-9 h2{
+   color:  hsl(207, 13%, 34%);
+}
+.blog-9 img{
+    width: 800px;
+   
+}
+.blog-10{
+    margin-left: 20px;
+    
+}
+.blog-10 h3{
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 40px;
+    line-height: 2;
+}
+.footer{
+     background-color:  hsl(240, 10%, 16%);
+    
+    display: flex;
+    text-align: left;
+    border-radius: 0px 90px 0px 0px;
+    line-height: 2;
+}
+.blogr{
+    margin-left: 150px;
+    margin-right: 140px;
+    color: white;
+}
+
+.product{
+    
+    margin-right: 60px;
+    color: hsl(240, 2%, 54%);
+}
+.company{
+    
+    margin-right: 60px;
+    color: hsl(240, 2%, 54%);
+}
+ul li{
+    list-style: none;
+}
+.connect{
+   
+    margin-right: 60px;
+    color: hsl(240, 2%, 54%);
+}
+
+@media(max-width:1048px){
+    label.logo{
+        font-size: 32px;
+        padding-left: 10px;
+    }
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+
+}
+
+    @media(max-width:909px){
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        label.logo{
+            font-size: 30px;
+            margin: 0;
+            padding: 0;
+            margin-left: 20px;
+        }
+        .lab li{
+            line-height: 10px;
+        }
+           nav  #icon{
+                display: block;
+                align-items: center;
+                color: black;
+                line-height: 0 !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            nav ul{
+                position: fixed;
+                display: grid;
+                width: 100%;
+                height: 100%;
+                background-color:  hsl(356, 100%, 66%);
+                top: 80px;
+                left: 100%;
+                transition: all 1s;
+                text-align: center;
+            }
+            nav li{
+                display: block;
+                margin: 50px 0;
+                line-height: 10px;
+            }
+            nav a{
+                font-size: 20px;
+            }
+            .ul h3{
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            a.active,a:hover{
+                border: none;
+                color: #349d;
+            }
+            nav ul.show{
+                left: 0;
+            }
+            .lab ul{
+                text-align: left;
+                align-items: center;
+            }
+            nav ul h3{
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            .lab li{
+                margin: 0;
+            }
+    #bt{
+        display: grid;
+        margin-top: 0 !important;
+        margin-bottom: 150px;
+    }
+    #bt button{
+        margin-top: 20px;
+    }
+      
+        
+      
+    .blog-1{
+    color: white;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color:  hsl(356, 100%, 66%);
+    border-radius: 0px 0px 0px 30px;
+    
+    }
+.blog-2 h1{
+font-size: 20px;
+}
+.blog-4{
+    display: grid !important;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+#future{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    text-align: left;
+    font-size: 19px;
+    margin-left: 10px;
+}
+.qwerty{
+    text-align: left;
+    display: grid;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.blog-5{
+    text-align: left;
+    display: grid;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.blog-5 h2{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.blog-5 h3{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.blog-6 img{
+    width: 300px;
+    margin: 0;
+    margin-left: 5px;
+}
+.blog-7{
+    display: grid;
+    border-radius: 0px 100px 0px 50px;
+}
+.blog-7-1 img{
+    width: 250px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+.blog-8{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.blog-8 h3{
+    text-align: center;
+    margin-left: 20px;
+}
+.blog-9{
+    display: grid;
+}
+.blog-9-1 img{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+.blog-10 h2{
+    text-align: center;
+}
+.blog-10 h3{
+    text-align: center;
+    gap: 0;
+    font-size: 13px;
+}
+.footer{
+    display: grid;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left;
+}
+.blogr{
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center;
+}
+.product{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: center;
+
+}
+.company{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
+.connect{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: center;
+}
+.product ul li{
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
+}
