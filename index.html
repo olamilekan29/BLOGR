@@ -7,42 +7,31 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- <nav>
-        <div class="lab"> 
-            <label class="logo">
-                <h2>BLOGR</h2>
-                
-        </label>
-         <ul>
-          
-             
-         </ul>
-         </div>
-           <label id="icon">
-             <iconify-icon icon="uil:bars"></iconify-icon>
-           </label>
-        
-     
-     </nav> -->
-     <nav>
-        <div class="lab"> <label class="logo">BLOGR</label>
-         <ul>
-            <h3 style="margin-left: 70px;"  > <select  id="" style="background-color: hsl(356, 100%, 66%); border: none; color: white;"><option>product</option></select> </h3>
-            <h3 style="margin-left: 40px;">  <select  id="" style="background-color: hsl(356, 100%, 66%); border: none; color: white;"><option>company</option></select></h3>
-            <h3 style="margin-left: 20px;"> <select  id="" style="background-color: hsl(356, 100%, 66%); border: none; color: white;"><option>contact</option><option>Newsletter</option><option>linkedin</option>
-            </select></h3>
-           <div id="bt">  <li><a class="active" >log in</a></li>
-             <button>sign up</button></div>
-         </ul>
-         </div>
-           <label id="icon">
-             <iconify-icon icon="uil:bars"></iconify-icon>
-           </label>
-        
-     
-     </nav>
-       
-        <div id="blog-1" class="blog-1" >
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding">DEV.</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><select  id="" style="background-color: hsl(356, 100%, 66%); border: none; color: white;"><option>Product</option></select></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><select  id="" style="background-color: hsl(356, 100%, 66%); border: none; color: white;"><option>Company</option></select></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><select  id="" style="background-color: hsl(356, 100%, 66%); border: none; color: white;"><option>Contact</option></select></a>
+                </li>
+                <li class="nav-item"> <li><a class="active">Log in</a></li>
+                    <button style="width: 100px; border-radius: 20px; height: 30px; background-color: white; border: none; margin-bottom: 10px;">Sign up</button></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div id="blog-1" class="blog-1" >
         <div id="blog-2" class="blog-2">
             <h1>A modern publishing platform</h1>
             <h3>Grow your audience and buid your online brand</h3>
@@ -129,22 +118,6 @@
         </div>
     </section>
 
-    <script src="js/bootstrap.bundle.min - Copy.js"></script>
-        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-        <script>
-        $(document).ready(function(){
-            $('#icon').click(function(){
-                $('ul').toggleClass('show');
-                $('h3').toggleClass(close)
-            });
-        });
-        </script>
-
-   
-    
-
-
-    
+    <script src="index.JS"></script>
 </body>
 </html>
